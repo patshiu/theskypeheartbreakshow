@@ -1,0 +1,65 @@
+body {
+	background-color: #000;
+	background-repeat: repeat;
+	background-image: url("../imgs/brokenheart2.gif");
+	font-family: "Courier New", Courier, monospace;
+}
+.container {
+	background: black;
+	margin: 20px 15% 100px 15%;
+	min-width: 400px;
+	padding: 10px 40px;
+	border-style: dashed;
+	border-color: rgba(0, 125, 255, 1); 
+	display: table;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+	letter-spacing: -0.05em;
+	color: rgba(0, 125, 255, 1);
+	font-size: 40pt;
+	padding: 10px 0 8px 0;
+	margin-bottom:0;
+	/*margin-top: 40px;*/
+	background-color: white;
+	border-radius: 35px;
+	border: 10px solid rgba(0, 125, 255, 1);
+}
+
+h2 {
+	text-align: center;
+	color: #888;
+}
+
+lead {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+p {
+	margin-bottom: 2em;
+	color: white;
+}
+
+.centerAlign {
+	display: table-row;
+	width: 100%;
+	text-align: center;
+}
+
+.fullWidthImg {
+	width: 90%;
+	max-width: 865;
+	/*border: dotted 1px rgba(0, 125, 255, 1);*/
+	padding: 15px;
+}
+
+.description {
+	width:60%;
+	max-width: 500px;
+	margin-right: 20%;
+	margin-left: 20%;
+	padding: 0px 20px 40px 20px;
+}
