@@ -1,6 +1,7 @@
 body {
 	background-color: #000;
 	background-repeat: repeat;
+	background-attachment: fixed;
 	background-image: url("../imgs/brokenheart2.gif");
 	font-family: "Courier New", Courier, monospace;
 }
