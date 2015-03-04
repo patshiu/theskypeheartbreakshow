@@ -114,7 +114,12 @@ p {
 	width: 25%;
 }
 
-.boy::before {
+ul {
+	margin: 0 0.4em 0 1.9em;
+	padding: 0;
+}
+
+ul li.boy:before {
 	content: "B: ";
 	font-weight: bold;
 	margin: 0 -1.2em;
@@ -126,7 +131,7 @@ p {
 	margin: 0 0 1em 0;
 }
 
-.girl::before {
+ul li.girl:before {
 	content: 'G:';
 	font-weight: bold;
 	margin: 0 -1.2em;
@@ -142,7 +147,15 @@ p {
 	color: darkgrey;
 	list-style: none;
 	text-transform: uppercase;
+	/**/
+}
+
+li.note {
 	margin: 0 0 1em -1.2em;
+}
+
+td p.note, td h5.note {
+	margin: 0 0.5em 1em 0.5em;
 }
 
 .centerAlign {
