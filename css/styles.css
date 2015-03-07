@@ -158,6 +158,17 @@ td p.note, td h5.note {
 	margin: 0 0.5em 1em 0.5em;
 }
 
+.toScript, a.toScript , a:visited.toScript {
+	font-weight: bold;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	color: turquoise;
+}
+
+a:hover.toScript  {
+	color: purple;
+}
+
 .centerAlign {
 	display: table-row;
 	width: 100%;
