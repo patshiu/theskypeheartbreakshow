@@ -63,6 +63,14 @@ h6 {
 	color: #999;
 }
 
+.headerInfo a, .headerInfo a:visited   {
+	color: #999;
+}
+
+.headerInfo a:hover {
+	color: #BEBEBE;
+}
+
 em {
 	font-weight: bold;
 	color: magenta;
