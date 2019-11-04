@@ -13,8 +13,15 @@ body {
 	min-width: 400px;
 	padding: 10px 40px;
 	border-style: dashed;
-	border-color: rgba(0, 125, 255, 1); 
+	border-color: rgba(0, 125, 255, 1);
 	display: table;
+	margin: auto;
+	margin-top: 20px;
+}
+
+iframe{
+	margin: auto;
+	display: block;
 }
 
 .floater {
@@ -74,6 +81,10 @@ h6 {
 
 em {
 	font-weight: bold;
+	color: magenta;
+}
+
+a:visited {
 	color: magenta;
 }
 
